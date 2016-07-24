@@ -31,3 +31,11 @@ func ExampleMyStruct_Method1() {
 	// Output:
 	// 1
 }
+
+func ExampleMyStruct_Method1_anotherexample() {
+	myStruct := MyStruct{}
+	result := myStruct.Method1()
+
+	// Output:
+	// 1
+}
